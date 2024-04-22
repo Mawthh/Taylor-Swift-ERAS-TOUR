@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-image: url(https://cdn.ome.lt/DJeyaIhUzWDxyzs-DD8_9eKA4eA=/fit-in/837x500/smart/uploads/conteudo/fotos/Kanye-West-header_1Y3w4zE.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.escola-imagem{
+    width: 16%;
+}
+
+#escola{
+    background-image: url(taylor-swift-eras-tour-bilheteria-mundial-estreia.png);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+#swifter{
+    padding: 24px 0;
+}
+
+
+.swifter-imagem{
+    width: 120px;
+}
+
+.swifter-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.swifter-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.swifter-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.swifter-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
